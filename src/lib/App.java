@@ -19,6 +19,7 @@ public class App {
         frame.add(FlappyBird);
         //Causes this Window to be sized to fit the preferred size and layouts of its subcomponents
         frame.pack(); 
+        FlappyBird.requestFocus();
         frame.setVisible(true);;
 
 
